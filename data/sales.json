@@ -1,0 +1,47 @@
+[
+  {
+    "car": {
+      "make": "Toyota",
+      "model": "Camry",
+      "image": "https://carwow-uk-wp-3.imgix.net/Toyota-Camry-Hybrid-Exterior-Dynamic-NOT-UK-SPEC-19.jpg"
+    },
+    "customer": {
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "phone": "+1 202-555-0183"
+    },
+    "price": 25000,
+    "date": "2024-02-10",
+    "status": "SOLD"
+  },
+  {
+    "car": {
+      "make": "Honda",
+      "model": "Civic",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfj4RJowX-qAFaBgmJtIoVVuNNMaqiLfmMqg&s"
+    },
+    "customer": {
+      "name": "Jane Smith",
+      "email": "jane.smith@example.com",
+      "phone": "+1 303-555-0192"
+    },
+    "price": 22000,
+    "date": "2024-02-08",
+    "status": "SOLD"
+  },
+  {
+    "car": {
+      "make": "BMW",
+      "model": "X5",
+      "image": "https://www.bmw.co.il/content/dam/bmw/common/all-models/m-series/series-overview/bmw-m-series-seo-overview-ms-02.jpg"
+    },
+    "customer": {
+      "name": "Michael Johnson",
+      "email": "michael.johnson@example.com",
+      "phone": "+1 415-555-0221"
+    },
+    "price": 50000,
+    "date": "2024-02-05",
+    "status": "SOLD"
+  }
+]

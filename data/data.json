@@ -1,0 +1,183 @@
+[
+  {
+    "make": "Toyota",
+    "model": "Corolla",
+    "firsthand": "First-hand",
+    "year": 2022,
+    "type": "Sedan",
+    "transmission": "Automatic",
+    "fuel_type": "Gasoline",
+    "image": "https://file.kelleybluebookimages.com/kbb/base/evox/CP/13483/2022-Toyota-Corolla-front_13483_032_2400x1800_040.png"
+  },
+  {
+    "make": "Honda",
+    "model": "Civic",
+    "year": 2021,
+    "type": "Sedan",
+    "transmission": "Automatic",
+    "fuel_type": "Gasoline",
+    "image": "https://file.kelleybluebookimages.com/kbb/base/evox/CP/15455/2021-Honda-Civic-front_15455_032_2400x1800_WX.png"
+  },
+  {
+    "make": "Ford",
+    "model": "Mustang",
+    "year": 2020,
+    "type": "Coupe",
+    "transmission": "Manual",
+    "fuel_type": "Gasoline",
+    "image": "https://file.kelleybluebookimages.com/kbb/base/evox/CP/13997/2020-Ford-Mustang-front_13997_032_2400x1800_YZ.png"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Camaro",
+    "year": 2019,
+    "type": "Coupe",
+    "transmission": "Automatic",
+    "fuel_type": "Gasoline",
+    "image": "https://cars.usnews.com/static/images/Auto/izmo/i99400778/2019_chevrolet_camaro_angularfront.jpg"
+  },
+  {
+    "make": "BMW",
+    "model": "3 Series",
+    "year": 2022,
+    "type": "Sedan",
+    "transmission": "Automatic",
+    "fuel_type": "Gasoline",
+    "image": "https://images.hgmsites.net/med/2022-bmw-3-series-330i-sedan-angular-front-exterior-view_100841246_m.jpg"
+  },
+  {
+    "make": "Audi",
+    "model": "A4",
+    "year": 2021,
+    "type": "Sedan",
+    "transmission": "Automatic",
+    "fuel_type": "Gasoline",
+    "image": "https://d2ivfcfbdvj3sm.cloudfront.net/7fc965ab77efe6e0fa62e4ca1ea7673bb25f41520f1e3d8e88cb/stills_0640_png/MY2021/15034/15034_st0640_116.png"
+  },
+  {
+    "make": "Mercedes-Benz",
+    "model": "C-Class",
+    "year": 2020,
+    "type": "Sedan",
+    "transmission": "Automatic",
+    "fuel_type": "Gasoline",
+    "image": "https://images.hgmsites.net/lrg/2020-mercedes-benz-c-class-angular-front-exterior-view_100745106_l.jpg"
+  },
+  {
+    "make": "Nissan",
+    "model": "Altima",
+    "year": 2022,
+    "type": "Sedan",
+    "transmission": "Automatic",
+    "fuel_type": "Gasoline",
+    "image": "https://di-uploads-pod35.dealerinspire.com/newtonnissanofgallatin/uploads/2022/02/2022-Nissan-Altima-Model-Left.jpg"
+  },
+  {
+    "make": "Hyundai",
+    "model": "Elantra",
+    "year": 2021,
+    "type": "Sedan",
+    "transmission": "Automatic",
+    "fuel_type": "Gasoline",
+    "image": "https://dbhdyzvm8lm25.cloudfront.net/stills_0640_png/MY2021/14820/14820_st0640_116.png"
+  },
+  {
+    "make": "Kia",
+    "model": "Optima",
+    "year": 2020,
+    "type": "Sedan",
+    "transmission": "Automatic",
+    "fuel_type": "Gasoline",
+    "image": "https://file.kelleybluebookimages.com/kbb/base/evox/CP/13649/2020-Kia-Optima-front_13649_032_2400x1800_SWP.png"
+  },
+  {
+    "make": "Volkswagen",
+    "model": "Passat",
+    "year": 2022,
+    "type": "Sedan",
+    "transmission": "Automatic",
+    "fuel_type": "Diesel",
+    "image": "https://s3.amazonaws.com/cka-dash/212-1121-VG274/model1.png"
+  },
+  {
+    "make": "Subaru",
+    "model": "Impreza",
+    "year": 2021,
+    "type": "Sedan",
+    "transmission": "Automatic",
+    "fuel_type": "Gasoline",
+    "image": "https://mkt-vehicleimages-prd.autotradercdn.ca/photos/chrome/Expanded/White/2021SUC040014/2021SUC04001401.jpg"
+  },
+  {
+    "make": "Mazda",
+    "model": "Mazda3",
+    "year": 2020,
+    "type": "Sedan",
+    "transmission": "Automatic",
+    "fuel_type": "Gasoline",
+    "image": "https://www.classicmazda.com/assets/stock/ColorMatched_01/Transparent/640/cc_2020MAC17_01_640/cc_2020MAC170041_01_640_25D.png"
+  },
+  {
+    "make": "Dodge",
+    "model": "Charger",
+    "year": 2022,
+    "type": "Sedan",
+    "transmission": "Automatic",
+    "fuel_type": "Gasoline",
+    "image": "https://file.kelleybluebookimages.com/kbb/base/evox/CP/14288/2022-Dodge-Charger-front_14288_032_2400x1800_PW7.png"
+  },
+  {
+    "make": "Jeep",
+    "model": "Wrangler",
+    "year": 2021,
+    "type": "SUV",
+    "transmission": "Automatic",
+    "fuel_type": "Gasoline",
+    "image": "https://dbhdyzvm8lm25.cloudfront.net/stills_0640_png/MY2021/14720/14720_st0640_116.png"
+  },
+  {
+    "make": "Lexus",
+    "model": "IS",
+    "year": 2020,
+    "type": "Sedan",
+    "transmission": "Automatic",
+    "fuel_type": "Gasoline",
+    "image": "https://images.hgmsites.net/lrg/2020-lexus-is-is-350-f-sport-rwd-angular-front-exterior-view_100743575_l.jpg"
+  },
+  {
+    "make": "Acura",
+    "model": "TLX",
+    "year": 2022,
+    "type": "Sedan",
+    "transmission": "Automatic",
+    "fuel_type": "Gasoline",
+    "image": "https://mkt-vehicleimages-prd.autotradercdn.ca/photos/chrome/Expanded/White/2022ACC180001/2022ACC18000101.jpg"
+  },
+  {
+    "make": "Infiniti",
+    "model": "Q50",
+    "year": 2021,
+    "type": "Sedan",
+    "transmission": "Automatic",
+    "fuel_type": "Gasoline",
+    "image": "https://platform.cstatic-images.com/xlarge/in/v2/stock_photos/f79d0e33-1ef2-4a30-b100-4cad129e25aa/96a9c3c5-e5ef-463f-8711-8514c49477f6.png"
+  },
+  {
+    "make": "Volvo",
+    "model": "S60",
+    "year": 2020,
+    "type": "Sedan",
+    "transmission": "Automatic",
+    "fuel_type": "Gasoline",
+    "image": "https://file.kelleybluebookimages.com/kbb/base/evox/CP/13373/2020-Volvo-S60-front_13373_032_2400x1800_707.png"
+  },
+  {
+    "make": "Porsche",
+    "model": "911",
+    "year": 2022,
+    "type": "Coupe",
+    "transmission": "Manual",
+    "fuel_type": "Gasoline",
+    "image": "https://file.kelleybluebookimages.com/kbb/base/evox/CP/50643/2022-Porsche-911-front_50643_032_2400x1800_0Q.png"
+  }
+]

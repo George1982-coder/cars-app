@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/customers.css" />
+    <script type="module" src="./assets/js/customers.js" defer></script>
+    <link
+      rel="shortcut icon"
+      href="https://img.freepik.com/premium-vector/black-car-icon-car-vector-icon-isolated-white-background-vehicle-sign-vector-illustration_882636-358.jpg?w=360"
+      type="image/x-icon"
+    />
+    <title>Customers-Enterprice Car Managment</title>
+  </head>
+  <body>
+    <div class="dashboard">
+      <aside class="sidebar">
+        <!-- sidebar-logo -->
+        <div class="sidebar-logo">Carpro CRM</div>
+        <!-- sidebar-menu -->
+        <ul class="sidebar-menu">
+          <li><a href="./index.html">Dashboard</a></li>
+          <li><a href="./customers.html">Customers</a></li>
+          <li><a href="./cars.html">Cars</a></li>
+          <li><a href="./sales.html">Sales</a></li>
+        </ul>
+      </aside>
+      <main>
+        <h1>Customers Managment</h1>
+        <p>Our customers list.</p>
+
+        <input
+          type="text"
+          id="searchCustomers"
+          placeholder="searchcustomers..."
+        />
+        <div id="customersList">
+          <!-- customers will be added dynamically -->
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

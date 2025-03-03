@@ -1,0 +1,53 @@
+.car-card {
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+.car-card.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+.car-overley {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.car-overley.visible {
+  opacity: 1;
+}
+.overley-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 400px;
+  position: relative;
+}
+.overley-content h2 {
+  margin-bottom: 1rem;
+}
+.overley-content p {
+  margin-bottom: 3px;
+}
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.overley-image {
+  width: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}

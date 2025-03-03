@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/cars.css" />
+    <script type="module" src="./assets/js/cars/cars.js" defer></script>
+    <link
+      rel="shortcut icon"
+      href="https://img.freepik.com/premium-vector/black-car-icon-car-vector-icon-isolated-white-background-vehicle-sign-vector-illustration_882636-358.jpg?w=360"
+      type="image/x-icon"
+    />
+    <title>Cars</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="dashboard">
+        <aside class="sidebar">
+          <!-- sidebar-logo -->
+          <div class="sidebar-logo">Carpro CRM</div>
+          <!-- sidebar-menu -->
+          <ul class="sidebar-menu">
+            <li><a href="./index.html">Dashboard</a></li>
+            <li><a href="./customers.html">Customers</a></li>
+            <li><a href="./cars.html">Cars</a></li>
+            <li><a href="./sales.html">Sales</a></li>
+          </ul>
+        </aside>
+      </div>
+
+      <main class="content">
+        <h1>Your Managment System</h1>
+        <p>Manage your cars professionally</p>
+
+        <section class="car-form-container">
+          <h2>Add a new Car</h2>
+          <div class="car-form">
+            <input type="text" id="carMake" placeholder="Car Make" />
+            <input type="text" id="carModel" placeholder="Car Model" />
+            <input type="number" id="carYear" placeholder="Car Year" />
+            <input type="text" id="carType" placeholder="Car Type" />
+            <input
+              type="text"
+              id="carTransmission"
+              placeholder="Car Transmission"
+            />
+            <input type="text" id="carFuel" placeholder="Car Fuel" />
+            <input
+              type="file"
+              id="carImage"
+              accept="image/*"
+              placeholder="Car Image"
+            />
+            <button class="addCarbtn">➕ Add CarCar</button>
+          </div>
+        </section>
+
+        <section class="search-container">
+          <input
+            type="text"
+            id="searchInput"
+            placeholder="🔍 Search for car...."
+          />
+        </section>
+
+        <section class="car-list-container">
+          <h2>🚗 Available Cars (New-Cars)</h2>
+          <div class="car-grid" id="carlist">
+            <!-- cars will be display dynamically -->
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

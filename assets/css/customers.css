@@ -1,0 +1,41 @@
+.customers-card {
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  margin: 10px 0;
+  transition: transform 0.2s ease-in-out;
+}
+.customers-card:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+}
+.customer-profile {
+  display: flex;
+  align-items: center;
+}
+.customer-profile img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+.customer-info h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #333;
+}
+.customer-info p {
+  margin: 3px 0;
+  font-size: 0.9rem;
+  color: #666;
+}
+.customer-info a {
+  color: #007bff;
+  text-decoration: none;
+}
+.customer-info a:hover {
+  text-decoration: underline;
+}

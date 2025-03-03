@@ -1,0 +1,72 @@
+[
+  {
+    "name": "John Smith",
+    "email": "john.smith@example.com",
+    "phone": "+1 555-123-4567",
+    "address": "123 Main St, New York, NY, USA",
+    "profile_image": "https://randomuser.me/api/portraits/men/1.jpg"
+  },
+  {
+    "name": "Emily Johnson",
+    "email": "emily.johnson@example.com",
+    "phone": "+1 555-987-6543",
+    "address": "456 Elm St, Los Angeles, CA, USA",
+    "profile_image": "https://randomuser.me/api/portraits/women/2.jpg"
+  },
+  {
+    "name": "Michael Williams",
+    "email": "michael.williams@example.com",
+    "phone": "+1 555-654-7890",
+    "address": "789 Oak St, Chicago, IL, USA",
+    "profile_image": "https://randomuser.me/api/portraits/men/3.jpg"
+  },
+  {
+    "name": "Sophia Brown",
+    "email": "sophia.brown@example.com",
+    "phone": "+1 555-321-9876",
+    "address": "321 Pine St, Houston, TX, USA",
+    "profile_image": "https://randomuser.me/api/portraits/women/4.jpg"
+  },
+  {
+    "name": "Daniel Martinez",
+    "email": "daniel.martinez@example.com",
+    "phone": "+1 555-147-2583",
+    "address": "258 Cedar St, Miami, FL, USA",
+    "profile_image": "https://randomuser.me/api/portraits/men/5.jpg"
+  },
+  {
+    "name": "Olivia Garcia",
+    "email": "olivia.garcia@example.com",
+    "phone": "+1 555-369-8524",
+    "address": "852 Maple St, San Francisco, CA, USA",
+    "profile_image": "https://randomuser.me/api/portraits/women/6.jpg"
+  },
+  {
+    "name": "William Rodriguez",
+    "email": "william.rodriguez@example.com",
+    "phone": "+1 555-963-7412",
+    "address": "741 Birch St, Seattle, WA, USA",
+    "profile_image": "https://randomuser.me/api/portraits/men/7.jpg"
+  },
+  {
+    "name": "Emma Lee",
+    "email": "emma.lee@example.com",
+    "phone": "+1 555-258-3697",
+    "address": "963 Spruce St, Boston, MA, USA",
+    "profile_image": "https://randomuser.me/api/portraits/women/8.jpg"
+  },
+  {
+    "name": "James Gonzalez",
+    "email": "james.gonzalez@example.com",
+    "phone": "+1 555-753-1598",
+    "address": "159 Redwood St, Denver, CO, USA",
+    "profile_image": "https://randomuser.me/api/portraits/men/9.jpg"
+  },
+  {
+    "name": "Charlotte Hernandez",
+    "email": "charlotte.hernandez@example.com",
+    "phone": "+1 555-852-7531",
+    "address": "357 Aspen St, Dallas, TX, USA",
+    "profile_image": "https://randomuser.me/api/portraits/women/10.jpg"
+  }
+]

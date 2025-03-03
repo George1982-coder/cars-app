@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/carList.css" />
+    <link rel="stylesheet" href="./assets/css/overley.css" />
+    <script type="module" src="./assets/js/main.js" defer></script>
+    <link
+      rel="shortcut icon"
+      href="https://img.freepik.com/premium-vector/black-car-icon-car-vector-icon-isolated-white-background-vehicle-sign-vector-illustration_882636-358.jpg?w=360"
+      type="image/x-icon"
+    />
+    <title>Enterprice Car Managment System</title>
+  </head>
+  <body>
+    <!-- container -->
+    <div class="dashboard">
+      <!-- sidebar -->
+      <aside class="sidebar">
+        <!-- sidebar-logo -->
+        <div class="sidebar-logo">Carpro CRM</div>
+        <!-- sidebar-menu -->
+        <ul class="sidebar-menu">
+          <li><a href="#dashboard">Dashboard</a></li>
+          <li><a href="./customers.html">Customers</a></li>
+          <li><a href="./cars.html">Cars</a></li>
+          <li><a href="./sales.html">Sales</a></li>
+        </ul>
+      </aside>
+      <!-- main content -->
+      <main class="main-content">
+        <!-- אדיפות -->
+        <header class="header">
+          <h1>Vehicle Inventory</h1>
+          <div class="search-container">
+            <i>🔍</i>
+            <input
+              type="text"
+              id="searchinput"
+              placeholder="Searche Vehicles..."
+            />
+          </div>
+        </header>
+
+        <div id="carlist" class="car-grid">
+          <!-- cars will dynamically added here -->
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/sales.css" />
+    <script type="module" src="./assets/js/sales.js" defer></script>
+    <title>Sales Management-CarPro CRM</title>
+  </head>
+  <body>
+    <div class="dashboard">
+      <!-- sidebar -->
+      <aside class="sidebar">
+        <!-- sidebar-logo -->
+        <div class="sidebar-logo">Carpro CRM</div>
+        <!-- sidebar-menu -->
+        <ul class="sidebar-menu">
+          <li><a href="./index.html">Dashboard</a></li>
+          <li><a href="./customers.html">Customers</a></li>
+          <li><a href="./cars.html">Cars</a></li>
+          <li><a href="./sales.html">Sales</a></li>
+        </ul>
+      </aside>
+      <!-- main content -->
+      <main class="main-content">
+        <!-- אדיפות -->
+        <header class="header">
+          <h1>Sales Overview</h1>
+          <div class="search-container">
+            <input type="text" id="searchinput" placeholder="Search sales..." />
+          </div>
+        </header>
+
+        <section class="sales-list-container">
+          <h2>📊 Sales Records</h2>
+          <div id="salesList" class="sales-grid"></div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
