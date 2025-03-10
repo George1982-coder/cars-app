@@ -42,3 +42,11 @@ header {
   object-fit: cover;
   border-radius: 8px;
 }
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+  }
+  .sidebar {
+    padding-bottom: 0;
+  }
+}

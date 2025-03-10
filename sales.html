@@ -20,6 +20,7 @@
         <!-- sidebar-logo -->
         <div class="sidebar-logo">Carpro CRM</div>
         <!-- sidebar-menu -->
+        <button id="menuToggle" class="menu-toggle">Menu</button>
         <ul class="sidebar-menu">
           <li><a href="./index.html">Dashboard</a></li>
           <li><a href="./customers.html">Customers</a></li>
@@ -43,5 +44,31 @@
         </section>
       </main>
     </div>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const menuToggle = document.getElementById("menuToggle");
+        const sideBarMeniu = document.querySelector(".sidebar-menu");
+
+        if (window.innerWidth < 768) {
+          sideBarMeniu.classList.add("hidden");
+        }
+
+        menuToggle.addEventListener("click", () => {
+          sideBarMeniu.classList.toggle("hidden");
+          menuToggle.classList.toggle("active");
+        });
+
+        window.addEventListener("resize", () => {
+          if (window.innerWidth >= 768) {
+            sideBarMeniu.classList.remove("hidden");
+          } else if (
+            !sideBarMeniu.classList.contains("hidden") &&
+            !menuToggle.classList.contains("active")
+          ) {
+            sideBarMeniu.classList.add("hidden");
+          }
+        });
+      });
+    </script>
   </body>
 </html>

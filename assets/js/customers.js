@@ -19,6 +19,14 @@ document.addEventListener("DOMContentLoaded", async () => {
   } else {
     customersList.innerHTML = `<div class"loading"> Error Loading Customers, please try again later</div>`;
   }
+
+  searchtInput.addEventListener("input", (event) => {
+    const searchTerm = event.target.value.toLowerCase();
+    const filteredCustomers = allCustomers.filter((customer) =>
+      customer.name.toLowerCase().includes(searchTerm)
+    );
+    renderCustomers(filteredCustomers, customersList);
+  });
 });
 
 function renderCustomers(customers, customersList) {
